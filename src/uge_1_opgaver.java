@@ -7,7 +7,7 @@ void main () {
     double pear = 15.00;
     double banana = 30.00;
     double subTotal = (apple + pear + banana);
-    double taxRate = 25.5;
+    double taxRate = 25.0;
 
     double totalPrice = subTotal + (subTotal * taxRate) / 100;
 
@@ -44,7 +44,7 @@ void main () {
 
     int numberOfGuests = 15;
     int numberOfCupcakes = 40;
-    int cupcakesPerPerson = 40 / 15;
+    int cupcakesPerPerson = numberOfCupcakes / numberOfGuests;
     int leftover = numberOfCupcakes % numberOfGuests;
 
     System.out.println("Each guest gets" + cupcakesPerPerson + "cupcakes");
