@@ -179,6 +179,7 @@ void main () {
     System.out.println(test);
     String testTo = "5"+3;
     System.out.println(testTo);
+    System.out.println();
 
     //6 - hvorfor += i stedet for =...+ ?
     // fordi det er mere effektivt og tidsbesparende + ser pænere ud
